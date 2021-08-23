@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* .img-wrapper {
+  position: relative;
+  padding-bottom: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+.img-wrapper img {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+} */
+
+.jumbo{
+  background-image: url(img/jumbo.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.btnbaru{
+  color: white;
+}
+.judul {
+  padding: 10px 10px 10px 40px;
+}
+
+
+
+.img{
+  width: 30%;
+  height: 200px;
+}
+
+.img1{
+    background-image: url(img/BUKBERmts.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img2{
+    background-image: url(img/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img3{
+    background-image: url(img/cupu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img4{
+    background-image: url(img/dasboard1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img5{
+    background-image: url(img/NOICE1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blank{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+/*responsive*/
+
+@media screen and (min-width: 480px) {
+  .img{
+    width: 50%;
+  }
+}
